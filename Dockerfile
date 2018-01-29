@@ -5,5 +5,3 @@ RUN go get github.com/golang/mock/mockgen && \
     go get github.com/golang/protobuf/protoc-gen-go && \
     go get github.com/dominikznidar/govendor && \
     go get github.com/go-swagger/go-swagger
-
-RUN chmod a+x /usr/local/bin/swagger
